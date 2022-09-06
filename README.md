@@ -24,7 +24,10 @@ mix.js("resources/js/app.js", "public/js")
 @tailwind components;
 @tailwind utilities;
 
+
 ## RUN
- npm install && npm run watch
+composer i
+php artisan key:generate
+npm install && npm run watch
 
 ## REMINDER TO ADD STYLE LINK
