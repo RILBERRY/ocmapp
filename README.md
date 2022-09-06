@@ -25,6 +25,14 @@ mix.js("resources/js/app.js", "public/js")
 @tailwind components;
 @tailwind utilities;
 ```
+## alisa
+RUN
+```
+source alias
+```
+  app -> docker exec -it backend /bin/bash
+  db -> docker exec -it database /bin/bash
+  ps -> docker ps
 
 
 ## RUN
