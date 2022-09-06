@@ -1,0 +1,10 @@
+
+app() {
+    docker exec -it backend /bin/bash
+}
+db() {
+    docker exec -it database /bin/bash
+}
+ps() {
+    docker ps
+}
