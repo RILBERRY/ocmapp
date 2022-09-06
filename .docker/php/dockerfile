@@ -11,9 +11,11 @@ RUN apt-get update && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     zip \
-    unzip
+    unzip \
+    npm
 
 # Clear cache
+
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Install PHP extensions
@@ -39,6 +41,10 @@ USER ${USER}
 
 # Copy permission to selected user
 COPY --chown=${USER}:${GROUP} . .
+
+RUN npm i daisyui && npm install -D tailwindcss postcss autoprefixer
+
+RUN npx tailwindcss init
 
 EXPOSE 9000
 
