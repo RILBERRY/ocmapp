@@ -25,7 +25,7 @@ services:
       dockerfile: dockerfile
     container_name: backend
     extra_hosts:
-      - ocm.app:192.168.222.24
+      - ocm.app:192.168.222.254
     environment:
       - VIRTUAL_HOST=ocm.app
     volumes:
