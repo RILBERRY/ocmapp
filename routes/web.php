@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $title = "thishisdhsdjfh sda";
+    $data = [];
+    $items = collect([
+        'a' => 'DB-01',
+        'b' => 'DB-022',
+        'c' => 'DB-02',
+        'd' => 'DB-03',
+        'e' => 'DB-04',
+        'f' => 'DB-05',
+        'g' => 'DB-06',
+        'h' => 'DB-07',
+        'i' => 'DB-08',
+    ]);
+
+    return view('welcome', ['items'=>$items, 'title'=>$title ]);
 });
