@@ -62,7 +62,7 @@
                       />
                     </svg>
                   </span>
-                  <span class="ml-2 text-sm"> Pages </span>
+                  <span class="ml-2 text-sm"> Create </span>
                   <span aria-hidden="true" class="ml-auto">
                     <!-- active class 'rotate-180' -->
                     <svg
@@ -83,32 +83,24 @@
                   <a
                     href="pages/blank.html"
                     role="menuitem"
-                    class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
+                    class="font-bold block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
                   >
-                    Blank
-                  </a>
+                    Models
+                  </a>                 
                   <a
-                    href="pages/404.html"
+                    href="pages/blank.html"
                     role="menuitem"
-                    class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
+                    class="font-bold block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
                   >
-                    404
-                  </a>
+                    Parts
+                  </a>                 
                   <a
-                    href="pages/500.html"
+                    href="pages/blank.html"
                     role="menuitem"
-                    class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
+                    class="font-bold block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
                   >
-                    500
-                  </a>
-                  <a
-                    href="#"
-                    role="menuitem"
-                    class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
-                  >
-                    Profile (soon)
-                  </a>
-                 
+                   Parts Components
+                  </a>                 
                 </div>
               </div>
 
@@ -161,23 +153,14 @@
                   <a
                     href="auth/register.html"
                     role="menuitem"
-                    class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
+                    class="font-bold block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
                   >
-                    Register
-                  </a>
-                  <a
-                    href="auth/login.html"
-                    role="menuitem"
-                    class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
-                  >
-                    Login
+                    Users
                   </a>
                 </div>
               </div>
             </nav>
-
             <!-- Sidebar footer -->
-            
           </div>
         </aside>
 
