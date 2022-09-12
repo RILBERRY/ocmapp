@@ -7,20 +7,25 @@
 <!-- //add content of each page here -->
 @section('content')
 
-<div class="flex items-center justify-between px-4 py-4 border-b lg:py-6 dark:border-primary-darker">
-  
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
-  <button class="btn btn-primary">Button</button>
+@component('components.model' ,['items'=>$items])
+  @slot('title')
+  4-Stroke Outboard Models
+  @endslot
+@endcomponent
 
-</div>
+@component('components.model' ,['items'=>$items])
+  @slot('title')
+  2-Stroke Outboard Models
+  @endslot
+@endcomponent
+
+@component('components.model' ,['items'=>$items])
+  @slot('title')
+  Cabrea Outboard Models
+  @endslot
+@endcomponent
+
+
+
 
 @stop
