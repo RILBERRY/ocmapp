@@ -26,6 +26,4 @@
 @endcomponent
 
 
-
-
 @stop

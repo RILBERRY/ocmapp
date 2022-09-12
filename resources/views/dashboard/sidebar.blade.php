@@ -153,7 +153,7 @@
                   <a
                     href="auth/register.html"
                     role="menuitem"
-                    class="font-bold block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
+                    class="font-boldblock p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
                   >
                     Users
                   </a>
